@@ -64,3 +64,14 @@
     filter: sepia(0.8);
     border-radius: 2rem;
 }
+
+.ex-9-img {
+    transition: 2s;
+}
+
+.ex-9-img:hover {
+    filter: grayscale(1);
+    filter: sepia(0.8);
+    border-radius: 2rem;
+    transform: scale(1.5);
+}
