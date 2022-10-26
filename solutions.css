@@ -75,3 +75,69 @@
     border-radius: 2rem;
     transform: scale(1.5);
 }
+
+.ex-10-icon {
+    animation: loading 2s linear infinite;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(1turn);
+
+    }
+}
+
+.ex-11-icon:hover {
+    animation: partial-spin 2s linear;
+}
+
+@keyframes partial-spin {
+    0% {
+        
+    }
+
+    75% {
+        transform: rotate(300deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: horizontal-movement-top-white 1s linear;
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: horizontal-movement-bottom-white 1s linear;
+}
+
+@keyframes horizontal-movement-top-white {
+    0% {
+
+    }
+
+    50% {
+        transform: translateX(110px);
+    }
+
+    100% {
+        
+    }
+}
+
+@keyframes horizontal-movement-bottom-white {
+    0% {
+
+    }
+
+    50% {
+        transform: translateX(-90px);
+    }
+
+    100% {
+        
+    }
+}
+
