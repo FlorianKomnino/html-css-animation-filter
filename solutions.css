@@ -106,14 +106,14 @@
 }
 
 .ex-12-button:hover .ex-12-top-white {
-    animation: horizontal-movement-top-white 1s linear;
+    animation: horizontal-movement-top-white-12 2s linear;
 }
 
 .ex-12-button:hover .ex-12-bottom-white {
-    animation: horizontal-movement-bottom-white 1s linear;
+    animation: horizontal-movement-bottom-white-12 2s linear ;
 }
 
-@keyframes horizontal-movement-top-white {
+@keyframes horizontal-movement-top-white-12 {
     0% {
 
     }
@@ -127,7 +127,7 @@
     }
 }
 
-@keyframes horizontal-movement-bottom-white {
+@keyframes horizontal-movement-bottom-white-12 {
     0% {
 
     }
@@ -141,3 +141,29 @@
     }
 }
 
+.ex-13-button:hover .ex-13-top-white {
+    animation: horizontal-movement-top-white-13 2s linear;
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: horizontal-movement-bottom-white-13 2s linear;
+}
+
+@keyframes horizontal-movement-bottom-white-13 {
+    0% {
+    }
+
+    25% {
+        transform: translateX(-100px);
+    }
+
+    40% {
+        transform: translateX(-100px);
+        transform: translateY(-80px);
+    }
+
+    100% {
+
+    }
+
+}
